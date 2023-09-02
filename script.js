@@ -1,3 +1,6 @@
+
+// this projected created by aryan developer 
+
 function loco(params) {
 
     gsap.registerPlugin(ScrollTrigger);
@@ -36,6 +39,9 @@ ScrollTrigger.refresh();
 }
 loco()
 
+
+// this function use for tetxt animation for use page 2
+
 var clutter = "";
 
 document.querySelector("#page2>h1").textContent.split("").forEach(function(dets){
@@ -57,7 +63,7 @@ gsap.to("#page2>h1>span",{
     color:`#fff`
 })
 
-
+// htis fuction use for page 3 convas
 
 function canvas(){
   const canvas = document.querySelector("#page3>canvas");
@@ -210,7 +216,7 @@ end: `250% top`,
 canvas()
 
 
-//page5
+//page5 repait a function use for text animation
 
 
 var clutter = "";
@@ -233,7 +239,10 @@ gsap.to("#page4>h1>span",{
     stagger:.2,
     color:`#fff`
 })
-// page 5 canvas
+
+
+
+//   agins use canvas page 5 canvas
 function canvas1(){
   const canvas = document.querySelector("#page5>canvas");
 const context = canvas.getContext("2d");
@@ -386,7 +395,7 @@ end: `250% top`,
 canvas1()
 
 
-//page6
+//page6   again use funtion use for text animation site
 
 var clutter = "";
 
@@ -408,7 +417,9 @@ gsap.to("#page6>h1>span",{
     stagger:.2,
     color:`#fff`
 })
-//page7
+
+
+//page7 agin use canvas for page7
 
 
 
@@ -647,5 +658,6 @@ gsap.to(".page7-cir",{
 })
 
 //page9 
+
 
 
